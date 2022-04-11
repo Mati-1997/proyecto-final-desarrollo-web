@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/estilos.css">
+    <title>Crea tu evento</title>
+</head>
+<!--Navbar-->
+
+<body>
+    <div class="container-fluid sticky disabled">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-dark fondo text-white ">
+                <div class="col-md-12 nav-fill fondo">
+                    <h2>Electronic Sound</h2>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"> <a class="nav-link" href="../../index.html">Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="../eventos.html">Eventos</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="../puntos-de-retiro.html">Puntos de
+                                retiro</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="../top10.html">News</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="../contacto.html">Contacto</a> </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!--Burger menu-->
+    <div>
+        <div class="row fondo bordemenu burger">
+            <div class="collapse fondo text-white " id="navbarToggleExternalContent">
+                <div class="fondo p-4">
+                    <h5 class="text-white">
+                        <h1>Electronic Sound</h1>
+                        <div class="col-md-12 nav-fill">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="../../index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="../../pages/eventos.html">Eventos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="../../pages/puntos-de-retiro.html">Puntos de
+                                        retiro</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="../../pages/top10.html">Top 10</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="../../pages/contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark fondo">
+                <div class="container-fluid fondo border-none ">
+                    <button class="navbar-toggler fondo" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!--Header-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 claseheader">
+                <header>
+                    <h2>Crea tu evento</h2>
+                </header>
+            </div>
+        </div>
+    </div>
+
+    <!--Contenido-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-md-1 col-md-5 text-white">
+                <br>
+                <h3>Ingrea tus datos</h3>
+                <div>
+                    <p>*Tu nombre:</p>
+                    <input type="text" class="form-control" placeholder="Nombre del organizador"
+                        aria-label="first name">
+                    <p>*Tu telefono</p>
+                    <input type="tel" class="form-control" placeholder="Telefono del organizador"
+                        aria-label="phone number">
+                    <p>*Tu e-mail</p>
+                    <input type="email" class="form-control" placeholder="E-mail del organizador" aria-label="e-mail">
+                    <p class="text-muted">*Te crearemos una cuenta con tu nombre y correo para que puedas administrar
+                        tus eventos, te enviaremos una contraseña al correo ingresado.</p>
+                    <p class="text-muted">**Asegúrate de que el correo que ingreses este correcto.</p>
+                    <br>
+                </div>
+                <div class="row">
+                    <h3>Ingresa los datos del evento</h3>
+                    <div class="col-md-3">
+                        <p>Ciudad destino</p>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Selecciona</option>
+                            <option value="1">Buenos Aires</option>
+                            <option value="2">Ciudad Autónoma de Buenos Aires</option>
+                            <option value="3">Catamarca</option>
+                            <option value="4">Chaco</option>
+                            <option value="5">Chubut</option>
+                            <option value="6">Córdoba</option>
+                            <option value="7">Corrientes</option>
+                            <option value="8">Entre Ríos</option>
+                            <option value="9">Formosa</option>
+                            <option value="10">Jujuy</option>
+                            <option value="11">La Pampa</option>
+                            <option value="12">La Rioja</option>
+                            <option value="13">Mendoza</option>
+                            <option value="14">Misiones</option>
+                            <option value="15">Neuquén</option>
+                            <option value="16">Río Negro</option>
+                            <option value="17">Salta</option>
+                            <option value="18">San Juan</option>
+                            <option value="19">San Luis</option>
+                            <option value="20">Santa Cruz</option>
+                            <option value="21">Santa Fe</option>
+                            <option value="22">Santiago del Estero</option>
+                            <option value="23">Tierra del Fuego</option>
+                            <option value="24">Tucumán</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <p>Tipo de evento</p>
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="1">Público</option>
+                            <option value="2">Privado</option>
+                        </select>
+                    </div>
+                    <p class="text-muted">*Los eventos privados, jamás serán publicados en nuestro sitio y podrán ser
+                        usados por empresas o particulares para administrar sus entradas, usando nuestra plataforma.</p>
+                    <br>
+                    <p>*Evento solo para mayores de edad</p>
+                    <div class="col-md-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="1">SI</option>
+                            <option value="2">NO</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <br>
+                <div class="text-center">
+                    <img src="../../imagenes/crea-tu-evento.png" class="img-fluid" width="70%">
+                </div>
+            </div>
+            <div class="offset-md-1 col-md-5 text-white">
+                <div>
+                    <p>Nombre del evento</p>
+                    <input type="text" class="form-control" placeholder="Escribe aquí el nombre de tu evento"
+                        aria-label="text">
+                    <p>Escribe la categoria del evento</p>
+                    <input type="text" class="form-control" placeholder="Escribe hasta 3 categorias" aria-label="text">
+                    <p>Artistas principales</p>
+                    <input type="text" class="form-control"
+                        placeholder="Escribe aqui cada artista separado por coma(...)" aria-label="text">
+                    <p class="text-muted">*El agregar Artistas o Participantes es completamente opcional.</p>
+                    <p>Descripción del evento</p>
+                    <textarea placeholder="Escriba aquí"></textarea required>
+                    <p class="text-muted">Tenes disponibles hasta 3000 caracteres.</p>
+                </div>
+                <div class="row">
+                    <p>Fecha y hora de inicio del evento</p>
+                    <div class="col-md-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            <option value="4">04</option>
+                            <option value="5">05</option>
+                            <option value="6">06</option>
+                            <option value="7">07</option>
+                            <option value="8">08</option>
+                            <option value="9">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>                
+                    </div>
+                    <div class="col-md-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="1">Enero</option>
+                            <option value="2">Febrero</option>
+                            <option value="3">Marzo</option>
+                            <option value="4">Abril</option>
+                            <option value="5">Mayo</option>
+                            <option value="6">Junio</option>
+                            <option value="7">Julio</option> 
+                            <option value="8">Agosto</option> 
+                            <option value="9">Septiembre</option> 
+                            <option value="10">Octubre</option> 
+                            <option value="11">Noviembre</option> 
+                            <option value="12">Diciembre</option>
+                        </select>                
+                    </div>
+                    <div class="col-md-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="1">2022</option>
+                            <option value="2">2023</option>
+                            <option value="3">2024</option>
+                            <option value="4">2025</option>
+                            <option value="5">2026</option>
+                        </select>                
+                    </div>
+                    <div class="col-md-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="1">00:00</option>
+                            <option value="2">01:00</option>
+                            <option value="3">02:00</option>
+                            <option value="4">03:00</option>
+                            <option value="5">04:00</option>
+                            <option value="6">05:00</option>
+                            <option value="7">06:00</option>
+                            <option value="8">07:00</option>
+                            <option value="9">08:00</option>
+                            <option value="10">09:00</option>
+                            <option value="11">10:00</option>
+                            <option value="12">11:00</option>
+                            <option value="13">12:00</option>
+                            <option value="14">13:00</option>
+                            <option value="15">14:00</option>
+                            <option value="16">15:00</option>
+                            <option value="17">16:00</option>
+                            <option value="18">17:00</option>
+                            <option value="19">18:00</option>
+                            <option value="20">19:00</option>
+                            <option value="21">21:00</option>
+                            <option value="22">22:00</option>
+                            <option value="23">23:00</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>Fecha y hora de inicio del evento</p>
+                    <div class="col-md-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            
+                            
+                        </select>                
+                    </div>
+                    <div class="col-md-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="1">Enero</option>
+                            <option value="2">Febrero</option>
+                            <option value="3">Marzo</option>
+                            <option value="4">Abril</option>
+                            <option value="5">Mayo</option>
+                            <option value="6">Junio</option>
+                            <option value="7">Julio</option> 
+                            <option value="8">Agosto</option> 
+                            <option value="9">Septiembre</option> 
+                            <option value="10">Octubre</option> 
+                            <option value="11">Noviembre</option> 
+                            <option value="12">Diciembre</option>
+                        </select>                
+                    </div>
+                    <div class="col-md-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="1">2022</option>
+                            <option value="2">2023</option>
+                            <option value="3">2024</option>
+                            <option value="4">2025</option>
+                            <option value="5">2026</option>
+                        </select>                
+                    </div>
+                    <div class="col-md-3">
+                        <select class="form-select" aria-label="Default select example">
+                            
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-md-1 col-md-5 text-white">
+                    <div>
+                        <p>Dirección</p>
+                        <input type="text" class="form-control" placeholder="Escribe aquí la dirección" aria-label="text">
+                        <p>Lugar del evento</p>
+                        <input type="text" class="form-control" placeholder="Escribe el lugar aquí" aria-label="text">
+                        <p>Agregar video</p>
+                        <input type="text" class="form-control" placeholder="Pega el link de Youtube aquí" aria-label="text">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Fotos</label>
+                        <input class="form-control" type="file" id="formFile">
+                        <p class="text-muted">La imagen debe medir 800 x 800 pixeles y no pesar más de 1MB.</p>
+                    </div>
+                    <p>Precio de las entradas</p>
+                    <input type="number" class="form-control" placeholder="Escribe aquí el precio de las entradas del evento" aria-label="number">
+                    <br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        Acepto <a href="../index/terminos-y-condiciones.html" target="_blank" rel="noopener noreferrer">términos y condiciones</a>
+                        </label>
+                    </div>
+                    <a href="../index/evento-creado.html"><button type="button" class="btn btn-outline-secondary fondo text-white mt-2">Crear evento</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Footer-->
+<br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 claseheader">
+            <footer>
+                <p>Copyrigth 2022. Todos los derechos reservados</p>
+                <p>Sitio web desarrollado por Matias Ezequiel Fazio</p>
+                <h4>Redes sociales</h4>
+                <a href="http://facebook.com"> <img src="../../imagenes/logo-facebook.png" alt="Facebook" width="30px" height="30px"></a>
+                <a href="http://instagram.com"> <img src="../../imagenes/logo-instagram.png" alt="Instagram" width="30px" height="30px"></a>
+                <a href="https://www.whatsapp.com"> <img src="../../imagenes/logo-whatsapp.png" alt="Whatsapp" width="30px" height="30px"></a>
+            </footer>
+        </div>
+    </div>
+</div>
+<!-- Javascript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

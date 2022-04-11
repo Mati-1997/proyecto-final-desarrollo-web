@@ -1,0 +1,43 @@
+* {
+  margin: 0px; }
+
+body {
+  background-color: #24023b; }
+
+.fondo {
+  background-color: blueviolet; }
+
+.claseheader {
+  background-color: black;
+  color: white;
+  padding: 1rem; }
+
+.marco {
+  border: 2px solid blueviolet;
+  margin: 2rem 0rem;
+  padding: 1rem; }
+
+.foto {
+  width: 100%;
+  margin: 0 auto; }
+
+@media (max-width: 750px) {
+  .disabled {
+    display: none; } }
+
+@media (min-width: 751px) {
+  .burger {
+    display: none; }
+  .asd {
+    display: flex;
+    justify-content: space-between; }
+    .asd li a {
+      display: inline; } }
+
+@media (min-width: 1024px) {
+  .sticky {
+    top: 0px;
+    position: sticky; } }
+
+.buton {
+  justify-items: right; }
