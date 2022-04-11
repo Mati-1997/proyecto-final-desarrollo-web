@@ -7,6 +7,7 @@ body {
 .fondo {
   background-color: blueviolet; }
 
+/* Header y footer */
 .claseheader {
   background-color: black;
   color: white;
@@ -21,10 +22,13 @@ body {
   width: 100%;
   margin: 0 auto; }
 
+/* Vista mobile*/
 @media (max-width: 750px) {
   .disabled {
-    display: none; } }
+    display: none;
+    padding: 3rem; } }
 
+/*Vista desoktp*/
 @media (min-width: 751px) {
   .burger {
     display: none; }
@@ -36,8 +40,9 @@ body {
 
 @media (min-width: 1024px) {
   .sticky {
+    position: sticky;
     top: 0px;
-    position: sticky; } }
+    z-index: 1; } }
 
 .buton {
   justify-items: right; }
